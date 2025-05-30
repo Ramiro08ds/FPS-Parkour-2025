@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 8659622700103579469}
   - component: {fileID: 7194619731582315098}
   - component: {fileID: 2653068269624020474}
-  - component: {fileID: 9015497415295055006}
+  - component: {fileID: 507706981971820257}
   m_Layer: 0
   m_Name: BarrilPrefabNew
   m_TagString: Untagged
@@ -64,7 +64,7 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: a6e35069b4e3f924dae6ca24119bb1d7, type: 3}
---- !u!114 &9015497415295055006
+--- !u!114 &507706981971820257
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -73,7 +73,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 3684088440756327680}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 23eb725b5de646149b4b3e182675e95b, type: 3}
+  m_Script: {fileID: 11500000, guid: 506c8497fe00dac4caaa566f84c2e003, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1001 &8056079753424611567
