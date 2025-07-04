@@ -11,5 +11,6 @@ public class HealthScript : MonoBehaviour
     {
         uiManager = FindObjectOfType<UIManager>();
     }
+}
 
-   
+
