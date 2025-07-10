@@ -5,17 +5,17 @@ using TMPro;
 
 public class UIManager : MonoBehaviour
 {
-    public TextMeshProUGUI txtMoney;
-    public TextMeshProUGUI txtHealth;
+    public TextMeshProUGUI txt_Money;
+    public TextMeshProUGUI txt_Health;
 
     public void UpdateMoneyText(string money)
     {
-        txtMoney.text = "$" + money;
+        txt_Money.text = "$" + money;
     }
 
      public void UpdateHealthText(string health)
     {
-        txtHealth.text = health;
+        txt_Health.text = health;
     }
 }
 
