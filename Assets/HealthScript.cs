@@ -4,12 +4,20 @@ using UnityEngine;
 
 public class HealthScript : MonoBehaviour
 {
-    public float health;
-    public UIManager uiManager;
+    public int damage;
+    public HealthManager healthManager;
 
     void Start()
     {
-        uiManager = FindObjectOfType<UIManager>();
+        healthManager = FindObjectOfType<HealthManager>();
+    }
+
+    private void OnTriggerEnter(Collider collision)
+    {
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            healthManager.UpdateHealth(damage);
+        }
     }
 }
 

@@ -14,7 +14,7 @@ public class HealthManager : MonoBehaviour
 
     public bool UpdateHealth(int DamageAmount)
     {
-        if (health <= DamageAmount)
+        if (health - DamageAmount < 0)
         {
 
             Debug.Log("Has muerto");
